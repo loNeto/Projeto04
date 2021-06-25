@@ -1,0 +1,258 @@
+*{
+  font-family: 'Kalam', cursive;
+  font-weight:lighter;
+}
+.menuDesk{
+  width:100%;
+  overflow:hidden;
+  display:flex;
+  align-items:center;
+  padding:20px 14px;
+  background-color:#ffffff;
+}
+.menuDesk__logo{
+  width:150px;
+  height:60px;
+  background-image:url('../images/logo.png');
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:contain;
+}
+.menuDesk__opt{
+  width:100%;
+  text-align:right;
+}
+.menuDesk__opt li{
+  display:inline-block;
+  margin:0 60px;
+  list-style-type:none;
+  font-size:30px;
+  color:#000000;
+  cursor:pointer;
+}
+
+.menuMob{
+  display:none;
+}
+.menuMob__burger{
+  display:none;
+}
+
+.show{
+  display:block;
+}
+
+.cardapio{
+  width:100%;
+  padding-bottom:30px;
+  overflow:hidden;
+}
+.cardapio h1{
+  text-align:left;
+  font-size:40px;
+  color:#ffffff;
+  text-decoration:underline;
+  background-color:#ff7300;
+  padding:12px 30px;
+}
+.cardapio__parte01{
+  width:100%;
+  overflow:hidden;
+}
+.cardapio__parte01 h2{
+  padding:12px 30px;
+  font-size:40px;
+  color:#707372;
+  text-align:left;
+  text-decoration:none;
+  background-color:#ffffff;
+}
+
+.produtos{
+  width:100%;
+  overflow:hidden;
+  display:flex;
+  flex-wrap:wrap;
+  -ms-flex-wrap:wrap;
+}
+
+.produtos--style{
+  width:140px;
+  height:180px;
+  margin:14px 30px;
+  border-radius:10px;
+  background-color:#ff7300;
+}
+
+.produtos__container{
+  display:flex;
+  flex-direction:column;
+  -ms-flex-direction:column;
+  align-items:center;
+}
+
+.produtos__item01{
+  background-image:url('../images/comida01.jpg');
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.produtos__item02{
+  background-image:url('../images/comida02.jpg');
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.produtos__item03{
+  background-image:url('../images/comida03.jpg');
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.produtos__item04{
+  background-image:url('../images/comida04.jpg');
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.produtos__item05{
+  background-image:url('../images/comida05.jpg');
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.produtos__item06{
+  background-image:url('../images/comida06.jpg');
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.produtos__texto{
+  width:100%;
+  max-width:120px;
+  color:#ffffff;
+  font-size:22px;
+  text-align:left;
+  word-break: break-all;
+  -ms-word-break: break-all;
+  background-color:#ff7300;
+  border-radius:15px;
+  padding:8px;
+  margin-top:-24px;
+}
+.produtos__texto span{
+  padding:2px 0;
+  text-decoration:underline;
+}
+
+.cardapio__parte02 h2{
+  margin-top:40px;
+  padding:12px 30px;
+  font-size:40px;
+  color:#707372;
+  text-align:left;
+  text-decoration:none;
+  background-color:#ffffff;
+}
+
+.contato{
+  width:100%;
+  overflow:hidden;
+  padding:40px 0;
+  background-color:#333333;
+}
+.contato h3{
+  color:#ffffff;
+  font-size:30px;
+  text-align:center;
+}
+
+.contato__card{
+  width:100%;
+  max-width:450px;
+  margin:0 50px;
+  display:flex;
+  flex-direction:column;
+  -ms-flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  background-color:#ffffff;
+  border-radius:14px;
+  text-align:center;
+}
+.contato__card i{
+  width:100%;
+  color:#000000;
+  display:inline-block;
+  font-size:34px;
+  word-wrap: break-word;
+  -ms-word-wrap: break-word;
+  text-decoration:none;
+  margin:30px 0;
+}
+
+.contato__mapa{
+  width:100%;
+  max-width:450px;
+  height:450px;
+  margin:0 50px;
+  background-color:#ffffff;
+  border-radius:14px;
+  text-align:center;
+}
+
+.contato__container{
+  display:flex;
+  flex-wrap:wrap;
+  -ms-flex-wrap:wrap;
+  justify-content:center;
+  margin-top:40px;
+}
+
+.rodape{
+  width:100%;
+  min-height:18%;
+  overflow:hidden;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:30px 0;
+  background-color:#ff7300;
+}
+.rodape__redes{
+  width:100%;
+  text-align:left;
+}
+.rodape__redes a, .rodape__redes i{
+  width:100%;
+  max-width:150px;
+  display:inline-block;
+  font-size:22px;
+  margin:6px 0;
+  text-decoration:none;
+  color:#000000;
+}
+.rodape p{
+  color:#000000;
+  text-align:center;
+  font-size:22px;
+  margin:16px 0;
+}
+.meulogo{
+  width:100px;
+  height:50px;
+  background-image:url('../images/osnetologo.png');
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+}
+
+.rodape__container{
+  width:100%;
+  max-width:1280px;
+  padding:0 2%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}

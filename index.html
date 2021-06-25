@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang='pt_br'>
+  <head>
+    <title>Projeto 01</title>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    <meta name='author' content=''>
+    <meta name='description' content=''>
+    <meta name='keywords' content=''>
+
+    <meta property='og:locale' content='pt_br'>
+    <meta property='og:type' content='website'>
+    <meta property='og:title' content=''>
+    <meta property='og:description' content=''>
+    <meta property='og:image' content=''>
+    <meta property='og:image:width' content='1280'>
+    <meta property='og:image:height' content='720'>
+    <meta property='og:url' content=''>
+    <meta property='og:site_name' content=''>
+
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
+    <link href='css/reset.css' rel='stylesheet'>
+    <link href='css/styleP01.css' rel='stylesheet'>
+    <link href='css/sliderP01.css' rel='stylesheet'>
+    <link href='css/mqP01.css' rel='stylesheet'>
+    <link href='logo.ico' rel='shortcut icon' type='image-x/png'>
+  </head>
+
+  <body>
+    <nav class='menuDesk'>
+      <div class='menuDesk__logo'></div>
+      <ul class='menuDesk__opt'>
+        <li id='desk--gotoCardapio'>cardápio</li>
+        <li id='desk--gotoContato'>contato</li>
+      </ul>
+    </nav>
+    
+    <div class='menuMob__burger'>
+      <i id='btn' class="fas fa-bars"></i>
+    </div>
+
+    <nav class='menuMob'>
+      <ul class='menuMob__opt'>
+        <li id='mob--gotoCardapio'>cardápio</li>
+        <li id='mob--gotoContato'>contato</li>
+      </ul>
+    </nav>
+
+    <section class='slider'>
+      <div class='slides'>
+        <input type='radio' name='radio-btn' id='radio1'>
+        <input type='radio' name='radio-btn' id='radio2'>
+        <input type='radio' name='radio-btn' id='radio3'>
+        <input type='radio' name='radio-btn' id='radio4'>
+
+        <div class='slide first'>
+          <div class='slide__img'></div>
+        </div>
+
+        <div class='slide'>
+          <div class='slide__img2'></div>
+        </div>
+
+        <div class='slide'>
+          <div class='slide__img3'></div>
+        </div>
+
+        <div class='slide'>
+          <div class='slide__img4'></div>
+        </div>
+
+        <div class='navigation-auto'>
+          <div class='auto-btn1'></div>
+          <div class='auto-btn2'></div>
+          <div class='auto-btn3'></div>
+          <div class='auto-btn4'></div>
+        </div>
+
+        <div class='navigation-manual'>
+          <label for='radio1' class='manual-btn'></label>
+          <label for='radio2' class='manual-btn'></label>
+          <label for='radio3' class='manual-btn'></label>
+          <label for='radio4' class='manual-btn'></label>
+        </div>
+      </div>
+    </section>
+
+    <section id='cardapio' class='cardapio'>
+      <h1>Nosso cardápio</h1>
+
+      <div class='cardapio__parte01'>
+        <h2>Os melhores</h2>
+
+        <div class='produtos'>
+          <div class='produtos__container'>
+            <div id='zoom' class='produtos__item01 produtos--style'></div>
+
+            <div class='produtos__texto'>
+              <span>Produto</span>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+
+          <div class='produtos__container'>
+            <div class='produtos__item02 produtos--style'></div>
+
+            <div class='produtos__texto'>
+              <span>Produto</span>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+
+          <div class='produtos__container'>
+            <div class='produtos__item03 produtos--style'></div>
+
+            <div class='produtos__texto'>
+              <span>Produto</span>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='cardapio__parte02'>
+        <h2>Outros</h2>
+
+        <div class='produtos'>
+          <div class='produtos__container'>
+            <div class='produtos__item04 produtos--style'></div>
+
+            <div class='produtos__texto'>
+              <span>Produto</span>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+
+          <div class='produtos__container'>
+            <div class='produtos__item05 produtos--style'></div>
+
+            <div class='produtos__texto'>
+              <span>Produto</span>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+
+          <div class='produtos__container'>
+            <div class='produtos__item06 produtos--style'></div>
+
+            <div class='produtos__texto'>
+              <span>Produto</span>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id='contato' class='contato'>
+      <h3>Quer fazer o seu pedido? Entre em contato conosco!</h3>
+
+      <div class='contato__container'>
+        <div class='contato__card'>
+          <i class="fab fa-whatsapp">(99)99999-9999</i>
+          <i class="fas fa-phone">3521-9999</i>
+        </div>
+  
+        <div class='contato__mapa'>
+          <iframe width="450" height="450" style="width:100%;border:0; border-radius:14px;" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJXYO8uX2Nw5QRLoKF0saPOwc&key=AIzaSyA6Cr9axW0I9xB-59JoEqAZ2cAJ6QBN5JE"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <footer class='rodape'>
+      <div class='rodape__container'>
+        <div class='rodape__redes'>
+          <a href='https://www.facebook.com/'><i class="fab fa-facebook-f">Facebook</i></a>
+          <a href='https://www.instagram.com/'><i class="fab fa-instagram">Instagram</i></a>
+          <a href='https://twitter.com/'><i class="fab fa-twitter">Twitter</i></a>
+        </div>
+        
+        <p>Todos os direitos reservados</p>
+        <div class='meulogo'></div>
+      </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/1337432519.js" crossorigin="anonymous"></script>
+    <script src='js/sliderP01.js'></script>
+    <script src='js/gotoP01.js'></script>
+    <script src='js/menu.js'></script>
+  </body>
+</html>
